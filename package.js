@@ -1,8 +1,8 @@
 Package.describe({
   summary: "A tags attribute for Orion CMS using Bootstrap Tagsinput.",
   version: "0.0.1",
-  name: "dvc:orion-tags",
-  git: "https://github.com/dvc94ch/orion-tags.git",
+  name: "vmatekole:orion-tags",
+  git: "https://github.com/vmatekole/orion-tags.git",
 });
 
 Package.onUse(function (api) {
