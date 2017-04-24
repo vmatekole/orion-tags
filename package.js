@@ -12,7 +12,7 @@ Package.onUse(function (api) {
     'blaze-html-templates@1.0.1',
     'orionjs:base@1.0.0',
     'orionjs:attributes@1.0.0',
-    'bootstrp:tagsinput@0.5.0'
+    'vmatekole:bootstrap-tagsinput'
   ]);
 
   api.addFiles([
