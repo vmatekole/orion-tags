@@ -7,6 +7,14 @@ orion.attributes.registerAttribute('tags', {
       };
   },
   valueOut: function() {
-      return this.tagsinput('items');
+      // A HACK to maintain order
+      tags = this.siblings('.bootstrap-tagsinput').find('.tag');
+      if (!tags)
+        return;
+      result = []
+      _.each(tags, function(item) {
+        result.push($(item).text());
+      })
+      return result;
   },
 });
