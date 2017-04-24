@@ -11,7 +11,7 @@ orion.attributes.registerAttribute('tags', {
       tags = this.siblings('.bootstrap-tagsinput').find('.tag');
       if (!tags)
         return;
-      result = []
+      result = [];
       _.each(tags, function(item) {
         result.push($(item).text());
       })
